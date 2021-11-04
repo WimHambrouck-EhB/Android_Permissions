@@ -3,11 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Wim/AndroidStudioProjects/Permissions/app/src/main/res/drawable/edit_text_shadow.xml" value="0.5708333333333333" />
         <entry key="..\:/Users/Wim/AndroidStudioProjects/Permissions/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.34739583333333335" />
         <entry key="..\:/Users/Wim/AndroidStudioProjects/Permissions/app/src/main/res/drawable/ic_baseline_send_gray_24.xml" value="0.5708333333333333" />
+        <entry key="..\:/Users/Wim/AndroidStudioProjects/Permissions/app/src/main/res/drawable/ic_launcher_background.xml" value="0.34791666666666665" />
         <entry key="..\:/Users/Wim/AndroidStudioProjects/Permissions/app/src/main/res/drawable/ic_outline_send_24.xml" value="0.5708333333333333" />
         <entry key="..\:/Users/Wim/AndroidStudioProjects/Permissions/app/src/main/res/drawable/ic_outline_send_gray_24.xml" value="0.5708333333333333" />
-        <entry key="..\:/Users/Wim/AndroidStudioProjects/Permissions/app/src/main/res/layout/activity_main.xml" value="0.5546875" />
+        <entry key="..\:/Users/Wim/AndroidStudioProjects/Permissions/app/src/main/res/layout/activity_main.xml" value="0.5203804347826086" />
+        <entry key="..\:/Users/Wim/AppData/Local/Android/Sdk/platforms/android-30/data/res/drawable/editbox_background.xml" value="0.5708333333333333" />
       </map>
     </option>
   </component>

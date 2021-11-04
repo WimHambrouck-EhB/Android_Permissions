@@ -2,4 +2,8 @@
     <string name="app_name">Permissions</string>
     <string name="enter_message_here">Enter message here</string>
     <string name="send_message">Send message</string>
+    <string name="permission_alert_title">SMS permission needed</string>
+    <string name="permission_alert_message">This app requires the SMS permission to be able to send an SMS. We won\'t do anything evil with it, I promise!\n\nPlease choose \"Allow\" in the permissions dialog to continue…</string>
+    <string name="app_settings">App settings</string>
+    <string name="snackbar_enable_permission">Please enable SMS permission for this app to continue</string>
 </resources>

@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:id="@+id/messageLinearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/lightGray"
@@ -17,10 +18,14 @@
             android:id="@+id/messageText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
+            android:background="@android:drawable/editbox_background_normal"
             android:hint="@string/enter_message_here"
             android:importantForAutofill="no"
-            android:inputType="textShortMessage" />
+            android:inputType="textShortMessage"
+            android:padding="10dp" />
 
         <ImageView
             android:id="@+id/sendButton"
