@@ -1,17 +1,21 @@
 package org.example.permissions
 
-import android.Manifest
-import android.content.pm.PackageManager
-import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.activity.result.contract.ActivityResultContracts
-import androidx.core.content.ContextCompat
+import androidx.appcompat.app.AppCompatActivity
+import org.example.permissions.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        // enables or disables the send button depending on if text has been entered
+        binding.messageText.addTextChangedListener(SendButtonObserver(binding.sendButton))
+
 
     }
 }
