@@ -20,8 +20,6 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private lateinit var requestSMSPermissionLauncher: ActivityResultLauncher<String>
-    private var counter = 0
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -53,13 +51,14 @@ class MainActivity : AppCompatActivity() {
                             BaseTransientBottomBar.LENGTH_INDEFINITE
                         )
 
-                        snackbar.setAction(getString(R.string.app_settings)) {
-                            val intent = Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS)
-                            val uri = Uri.fromParts("package", packageName, null)
-                            intent.data = uri
-                            startActivity(intent)
-                        }
-                        snackbar.show()
+                        snackbar
+                            .setAction(getString(R.string.app_settings)) {
+                                val intent = Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS)
+                                val uri = Uri.fromParts("package", packageName, null)
+                                intent.data = uri
+                                startActivity(intent)
+                            }
+                            .show()
                     }
                 }
             }
